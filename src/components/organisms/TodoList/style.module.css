@@ -1,0 +1,9 @@
+.todoList {
+    display: flex;
+    flex-direction: column; /* アイテムを縦に並べる */
+    gap: 12px; /* アイテム間の余白を調整 */
+    padding: 10px;
+    max-width: 600px; /* TodoListの最大幅を制限 */
+    margin: 0 auto; /* 水平中央に配置 */
+    width: 100%;
+}

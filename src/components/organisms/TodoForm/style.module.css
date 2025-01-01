@@ -1,0 +1,21 @@
+.todoForm {
+    display: flex;
+    justify-content: center; /* 水平方向中央揃え */
+    align-items: center; /* 垂直方向中央揃え */
+    gap: 10px; /* 入力とボタンの間隔 */
+    width: 100%;
+    max-width: 440px; /* 最大幅を指定してレスポンシブ対応 */
+    margin-top: 20px; /* 上部に余白 */
+    margin-left: 80px
+  }
+  
+  input {
+    width: 30%; /* 入力フィールドの幅を調整 */
+    padding: 100px;
+    font-size: 1rem;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1rem;
+  }

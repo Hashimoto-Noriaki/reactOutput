@@ -1,0 +1,23 @@
+.todoPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* 水平方向に中央寄せ */
+    justify-content: center; /* 垂直方向に中央寄せ */
+    height: 80vh; /* 高さを大きくする */
+    width: 300%; /* 幅を大きくする */
+    margin: auto; /* 画面の中央に配置 */
+    padding: 20px;
+    border-radius: 10px; /* 角を丸くする */
+  }
+  
+h1 {
+    font-size: 4rem; /* タイトルを大きくする */
+    margin-bottom: 20px;
+}
+
+input {
+    width: 300px; /* 検索バーの幅を指定 */
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}

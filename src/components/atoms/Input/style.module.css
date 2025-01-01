@@ -1,0 +1,22 @@
+/* style.module.css */
+.input {
+    max-width: 400px; /* 最大幅を設定 */
+    padding: 12px 16px; /* 内部の余白を設定 */
+    font-size: 1rem; /* フォントサイズ */
+    border: 1px solid #ccc; /* 薄いグレーの枠線 */
+    border-radius: 8px; /* 角を丸くする */
+    
+    background-color: #fff; /* 背景色 */
+    color: #333; /* 文字色 */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; /* スムーズな変化 */
+  }
+  
+  .input:focus {
+    border-color: #646cff; /* フォーカス時の枠線色 */
+    box-shadow: 0 0 8px rgba(100, 108, 255, 0.3); /* フォーカス時の影 */
+  }
+  
+  .input::placeholder {
+    color: #aaa; /* プレースホルダーテキストの色 */
+    font-style: italic; /* イタリック体 */
+  }
